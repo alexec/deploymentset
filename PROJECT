@@ -1,3 +1,7 @@
 domain: alexec
 repo: github.com/alexec/deploymentset
+resources:
+- group: alexec
+  kind: DeploymentSet
+  version: v1
 version: "2"

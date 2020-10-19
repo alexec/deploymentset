@@ -1,0 +1,7 @@
+apiVersion: alexec.alexec/v1
+kind: DeploymentSet
+metadata:
+  name: deploymentset-sample
+spec:
+  # Add fields here
+  foo: bar
