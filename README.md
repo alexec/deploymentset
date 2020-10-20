@@ -2,6 +2,8 @@
 
 A deployment-set describes a deployment and the namespaces it should be installed in.
 
+Useful if you want to install many isolated controllers that control their own namespace
+
 Run the controller in any namespaces, and in that same namespace create a `DeploymentSet`. 
 
 This example creates an Argo Workflows controller in each namespace labelled with `"workflows.argoproj.io/argo": "true"`
